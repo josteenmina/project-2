@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Bookstore</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+ rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-bar">
+
+        <div class="top-left">
+            <p>Welcome to BookNest — Your Next Favorite Book Awaits!</p>
+        </div>
+
+        <div class="top-right">
+            <a href="#offers">Special Offers</a>
+            <span>|</span>
+            <a href="#contact">Customer Service</a>
+            <span>|</span>
+            <a href="#footer">Track Your Order</a>
+        </div>
+
+    </div>
+
+    <header class="header">
+
+        <div class="logo">
+            <a href="#home">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Book<span class="gold">Nest</span></span>
+            </a>
+        </div>
+
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Search books, authors...">
+
+            <button type="button" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+        
+        <div class="header-icons">
+
+            <a href="#account" class="header-icon" aria-label="My account">
+                <i class="fa-regular fa-user"></i>
+            </a>
+
+            <a href="#favorites" class="header-icon" aria-label="Favorites">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+            <a href="#cart" class="header-icon cart-icon" aria-label="Shopping cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count">2</span>
+            </a>
+        </div>
+
+    </header>
+
+    <nav class="navbar">
+
+        <div class="nav-links">
+
+            <a href="#home" class="nav-link active">Home</a>
+
+
+            <div class="nav-item">
+
+                <a href="#bestsellers" class="nav-link"> Shop <i class="fa-solid fa-angle-down"></i></a>
+
+                <div class="mega-menu">
+
+                    <div class="mega-column">
+
+                        <h3>Shop By Category</h3>
+
+                        <a href="#fiction">Fiction & Literature</a>
+                        <a href="#mystery">Mystery & Thriller</a>
+                        <a href="#romance">Romance</a>
+                        <a href="#fantasy">Fantasy & Science Fiction</a>
+                        <a href="#history">History & Biography</a>
+                        <a href="#selfhelp">Self-Help & Personal Growth</a>
+
+                    </div>
+
+
+                    <div class="mega-column">
+
+                        <h3>Explore Books</h3>
+
+                        <a href="#bestsellers">Best Sellers</a>
+                        <a href="#new-arrivals">New Arrivals</a>
+                        <a href="#trending">Trending Now</a>
+                        <a href="#classics">Classic Books</a>
+                        <a href="#offers">Special Offers</a>
+                        <a href="#gift-books">Books & Gift Sets</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="nav-item">
+
+                <a href="#collections" class="nav-link">Collections <i class="fa-solid fa-angle-down"></i></a>
+
+                <div class="dropdown-menu">
+
+                    <a href="#editors-picks">Editor's Picks</a>
+                    <a href="#award-winners">Award Winners</a>
+                    <a href="#reading-list">Reading Lists</a>
+                    <a href="#classics">Timeless Classics</a>
+
+                </div>
+
+            </div>
+            <a href="#bestsellers" class="nav-link">Best Sellers</a>
+            <a href="#new-arrivals" class="nav-link">New Arrivals</a>
+            <a href="#offers" class="nav-link">Offers</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-small">DISCOVER YOUR NEXT CHAPTER</p>
+            <h1>
+                Every Book<br>
+                Opens a <span>New World</span>
+            </h1>
+            <p class="hero-text">
+                Explore stories that inspire, adventures that captivate,
+                and knowledge that stays with you forever.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#bestsellers" class="btn btn-gold">
+                    Explore Books
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#new-arrivals" class="btn btn-outline"> New Arrivals</a>
+            </div>
+           
+        </div>
+
+    </section>
+
+
+    <section class="categories section" id="categories">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">EXPLORE OUR LIBRARY</p>
+
+            <h2>Find Your Kind of Story</h2>
+
+            <p class="section-description">
+                From unforgettable fiction to inspiring real-life stories,
+                there is something for every reader.
+            </p>
+
+        </div>
+
+
+        <div class="category-grid">
+
+            <a href="#fiction" class="category-card">
+
+                <img src="image/photo-1519682337058-a94d519337bc.avif"
+                     alt="Fiction books">
+
+                <div class="category-content">
+                    <p>01</p>
+                    <h3>Fiction & Literature</h3>
+                    <span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+            </a>
+
+
+            <a href="#mystery" class="category-card">
+
+                <img src="image/photo-2.avif"
+                     alt="Mystery and thriller books">
+
+                <div class="category-content">
+                    <p>02</p>
+                    <h3>Mystery & Thriller</h3>
+                    <span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+            </a>
+
+
+            <a href="#selfhelp" class="category-card">
+
+                <img src="image/photo-3.avif"
+                     alt="Personal development books">
+
+                <div class="category-content">
+                    <p>03</p>
+                    <h3>Self-Development</h3>
+                    <span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="products-section section" id="bestsellers">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">READERS' FAVORITES</p>
+
+            <h2>Best Sellers</h2>
+
+            <p class="section-description">
+                The stories everyone's talking about.
+            </p>
+
+        </div>
+
+
+        <div class="product-grid">
+
+            <div class="book-card">
+
+                <div class="book-inner">
+
+                    <div class="book-front">
+
+                        <div class="book-image">
+
+                            <span class="book-badge">BEST SELLER</span>
+
+                            <img src="image/photo-4.jpg"
+                                 alt="The Silent Library book">
+
+                            <div class="book-actions">
+
+                                <a href="#book1-details" aria-label="Book details">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+
+                                <a href="#favorites" aria-label="Add to favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="book-info">
+
+                            <p class="book-category">Mystery & Thriller</p>
+
+                            <h3>The Silent Library</h3>
+
+                            <p class="book-author">By Eleanor Hayes</p>
+
+                            <div class="book-rating">
+                                <span>★★★★★</span>
+                                <small>(128)</small>
+                            </div>
+
+                            <div class="book-price">
+                                <strong>EGP 320</strong>
+                                <del>EGP 400</del>
+                            </div>
+
+                            <a href="#cart" class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="book-back" id="book1-details">
+
+                        <span class="back-label">BOOK DETAILS</span>
+
+                        <h3>The Silent Library</h3>
+
+                        <p class="back-author">Eleanor Hayes</p>
+
+                        <p>
+                            A mysterious library, a forgotten secret,
+                            and a reader determined to uncover the truth.
+                            Every page reveals another unexpected clue.
+                        </p>
+
+                        <div class="back-details">
+                            <span>Genre: Mystery</span>
+                            <span>Pages: 320</span>
+                            <span>Language: English</span>
+                        </div>
+
+                        <strong class="back-price">EGP 320</strong>
+
+                        <a href="#cart" class="btn btn-gold">
+                            Add to Cart
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="book-card">
+
+                <div class="book-inner">
+
+                    <div class="book-front">
+
+                        <div class="book-image">
+
+                            <span class="book-badge">POPULAR</span>
+
+                            <img src="image/photo-2.avif"
+                                 alt="Beyond the Stars book">
+
+                            <div class="book-actions">
+
+                                <a href="#book2-details" aria-label="Book details">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+
+                                <a href="#favorites" aria-label="Add to favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="book-info">
+
+                            <p class="book-category">Fantasy</p>
+
+                            <h3>Beyond the Stars</h3>
+
+                            <p class="book-author">By Adrian Cole</p>
+
+                            <div class="book-rating">
+                                <span>★★★★★</span>
+                                <small>(96)</small>
+                            </div>
+
+                            <div class="book-price">
+                                <strong>EGP 285</strong>
+                                <del>EGP 350</del>
+                            </div>
+
+                            <a href="#cart" class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="book-back" id="book2-details">
+
+                        <span class="back-label">BOOK DETAILS</span>
+
+                        <h3>Beyond the Stars</h3>
+
+                        <p class="back-author">Adrian Cole</p>
+
+                        <p>
+                            Journey into a magical universe filled with
+                            ancient legends, hidden worlds, and characters
+                            whose courage changes everything.
+                        </p>
+
+                        <div class="back-details">
+                            <span>Genre: Fantasy</span>
+                            <span>Pages: 286</span>
+                            <span>Language: English</span>
+                        </div>
+
+                        <strong class="back-price">EGP 285</strong>
+
+                        <a href="#cart" class="btn btn-gold">
+                            Add to Cart
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="book-card">
+
+                <div class="book-inner">
+
+                    <div class="book-front">
+
+                        <div class="book-image">
+
+                            <span class="book-badge">TOP RATED</span>
+
+                            <img src="image/photo-3.avif"
+                                 alt="The Art of Becoming book">
+
+                            <div class="book-actions">
+
+                                <a href="#book3-details" aria-label="Book details">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+
+                                <a href="#favorites" aria-label="Add to favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="book-info">
+
+                            <p class="book-category">Personal Growth</p>
+
+                            <h3>The Art of Becoming</h3>
+
+                            <p class="book-author">By Olivia Bennett</p>
+
+                            <div class="book-rating">
+                                <span>★★★★★</span>
+                                <small>(84)</small>
+                            </div>
+
+                            <div class="book-price">
+                                <strong>EGP 260</strong>
+                                <del>EGP 310</del>
+                            </div>
+
+                            <a href="#cart" class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="book-back" id="book3-details">
+
+                        <span class="back-label">BOOK DETAILS</span>
+
+                        <h3>The Art of Becoming</h3>
+
+                        <p class="back-author">Olivia Bennett</p>
+
+                        <p>
+                            A thoughtful guide to building better habits,
+                            discovering your strengths, and creating a life
+                            guided by purpose and confidence.
+                        </p>
+
+                        <div class="back-details">
+                            <span>Genre: Self-Help</span>
+                            <span>Pages: 248</span>
+                            <span>Language: English</span>
+                        </div>
+
+                        <strong class="back-price">EGP 260</strong>
+
+                        <a href="#cart" class="btn btn-gold">
+                            Add to Cart
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="book-card">
+
+                <div class="book-inner">
+
+                    <div class="book-front">
+
+                        <div class="book-image">
+
+                            <span class="book-badge">-20%</span>
+
+                            <img src="image/photo-1519682337058-a94d519337bc.avif"
+                                 alt="Letters from Yesterday book">
+
+                            <div class="book-actions">
+
+                                <a href="#book4-details" aria-label="Book details">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+
+                                <a href="#favorites" aria-label="Add to favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="book-info">
+
+                            <p class="book-category">Romance</p>
+
+                            <h3>Letters from Yesterday</h3>
+
+                            <p class="book-author">By Clara James</p>
+
+                            <div class="book-rating">
+                                <span>★★★★★</span>
+                                <small>(73)</small>
+                            </div>
+
+                            <div class="book-price">
+                                <strong>EGP 240</strong>
+                                <del>EGP 300</del>
+                            </div>
+
+                            <a href="#cart" class="add-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="book-back" id="book4-details">
+
+                        <span class="back-label">BOOK DETAILS</span>
+
+                        <h3>Letters from Yesterday</h3>
+
+                        <p class="back-author">Clara James</p>
+
+                        <p>
+                            Old letters bring two lives together in a moving
+                            story about love, missed chances, and the
+                            beautiful possibility of a second beginning.
+                        </p>
+
+                        <div class="back-details">
+                            <span>Genre: Romance</span>
+                            <span>Pages: 304</span>
+                            <span>Language: English</span>
+                        </div>
+
+                        <strong class="back-price">EGP 240</strong>
+
+                        <a href="#cart" class="btn btn-gold">
+                            Add to Cart
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section-button">
+            <a href="#new-arrivals" class="btn btn-dark">
+                Discover More Books
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="offer-banner" id="offers">
+
+        <div class="offer-content">
+
+            <p class="section-subtitle">A LITTLE SOMETHING FOR YOUR NEXT READ</p>
+
+            <h2>Stories Worth Sharing.<br><span>Prices Worth Loving.</span></h2>
+
+            <p>
+                Enjoy special prices on selected books and find your next
+                favorite story for less.
+            </p>
+
+            <a href="#new-arrivals" class="btn btn-gold">
+                Shop the Offers
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <div class="offer-decoration">
+            <i class="fa-solid fa-book-open"></i>
+            <span>20% OFF</span>
+        </div>
+
+    </section>
+
+    <section class="products-section section" id="new-arrivals">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">FRESH OFF THE SHELF</p>
+
+            <h2>New Arrivals</h2>
+
+            <p class="section-description">
+                Fresh stories and new discoveries, picked just for you.
+            </p>
+
+        </div>
+
+
+        <div class="product-grid">
+
+
+            <div class="simple-book">
+
+                <div class="simple-book-image">
+
+                    <span class="book-badge">NEW</span>
+
+                    <img src="image/photo-4.jpg"
+                         alt="A Thousand Small Moments">
+
+                    <div class="simple-book-overlay">
+                        <a href="#contact">View Book</a>
+                    </div>
+
+                </div>
+
+                <div class="simple-book-info">
+
+                    <p class="book-category">Contemporary Fiction</p>
+
+                    <h3>A Thousand Small Moments</h3>
+
+                    <p class="book-author">By Sophie Miller</p>
+
+                    <div class="book-price">
+                        <strong>EGP 295</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="simple-book">
+
+                <div class="simple-book-image">
+
+                    <span class="book-badge">NEW</span>
+
+                    <img src="image/photo-2.avif"
+                         alt="The Midnight Garden">
+
+                    <div class="simple-book-overlay">
+                        <a href="#contact">View Book</a>
+                    </div>
+
+                </div>
+
+                <div class="simple-book-info">
+
+                    <p class="book-category">Fantasy</p>
+
+                    <h3>The Midnight Garden</h3>
+
+                    <p class="book-author">By James Walker</p>
+
+                    <div class="book-price">
+                        <strong>EGP 330</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="simple-book">
+
+                <div class="simple-book-image">
+
+                    <span class="book-badge">NEW</span>
+
+                    <img src="image/photo-3.avif"
+                         alt="A Better Tomorrow">
+
+                    <div class="simple-book-overlay">
+                        <a href="#contact">View Book</a>
+                    </div>
+
+                </div>
+
+                <div class="simple-book-info">
+
+                    <p class="book-category">Personal Growth</p>
+
+                    <h3>A Better Tomorrow</h3>
+
+                    <p class="book-author">By Daniel Brooks</p>
+
+                    <div class="book-price">
+                        <strong>EGP 275</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="simple-book">
+
+                <div class="simple-book-image">
+
+                    <span class="book-badge">NEW</span>
+
+                    <img src="image/photo-1519682337058-a94d519337bc.avif"
+                         alt="The Last Chapter">
+
+                    <div class="simple-book-overlay">
+                        <a href="#contact">View Book</a>
+                    </div>
+
+                </div>
+
+                <div class="simple-book-info">
+
+                    <p class="book-category">Mystery</p>
+
+                    <h3>The Last Chapter</h3>
+
+                    <p class="book-author">By Rebecca Stone</p>
+
+                    <div class="book-price">
+                        <strong>EGP 310</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="why-section section" id="collections">
+
+        <div class="why-image">
+
+            <img src="image/why .avif"
+                 alt="A cozy bookstore">
+
+        </div>
+
+
+        <div class="why-content">
+
+            <p class="section-subtitle">MORE THAN A BOOKSTORE</p>
+
+            <h2>Your Next Favorite<br><span>Story Starts Here.</span></h2>
+
+            <p>
+                At BookNest, we believe every book holds a new possibility.
+                Our collection brings together memorable stories, inspiring
+                ideas, and discoveries for every kind of reader.
+            </p>
+
+            <div class="why-points">
+
+                <div class="why-point">
+                    <i class="fa-solid fa-book-open"></i>
+
+                    <div>
+                        <h3>Carefully Selected Books</h3>
+                        <p>A collection chosen with readers in mind.</p>
+                    </div>
+                </div>
+
+
+                <div class="why-point">
+                    <i class="fa-solid fa-gift"></i>
+
+                    <div>
+                        <h3>Special Deals</h3>
+                        <p>Find great reads at prices you'll love.</p>
+                    </div>
+                </div>
+
+
+                <div class="why-point">
+                    <i class="fa-solid fa-heart"></i>
+
+                    <div>
+                        <h3>Made for Book Lovers</h3>
+                        <p>A welcoming place for every kind of reader.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#bestsellers" class="btn btn-dark">
+                Explore Our Collection
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="testimonial-section section">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">KIND WORDS FROM OUR READERS</p>
+
+            <h2>The BookNest Reading Experience</h2>
+
+        </div>
+
+
+        <div class="testimonial-card">
+
+            <div class="quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <div class="testimonial-stars">
+                ★★★★★
+            </div>
+
+            <p class="testimonial-text">
+                "BookNest has become my favorite place to discover new books.
+                The collection is wonderful, and I always find something
+                that makes me excited to read again."
+            </p>
+
+            <div class="reader">
+
+                <div class="reader-avatar">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div>
+                    <h3>Sarah Ahmed</h3>
+                    <p>BookNest Reader</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="blog-section section" id="blog">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">FROM OUR READING JOURNAL</p>
+
+            <h2>Stories Beyond the Pages</h2>
+
+            <p class="section-description">
+                Reading inspiration, book recommendations, and ideas
+                for your next literary adventure.
+            </p>
+
+        </div>
+
+
+        <div class="blog-grid">
+
+
+            <article class="blog-card">
+
+                <div class="blog-image">
+
+                    <img src="image/photo-5.avif"
+                         alt="Reading and writing">
+
+                </div>
+
+                <div class="blog-info">
+
+                    <p class="blog-date">BOOK GUIDES &nbsp; | &nbsp; 12 OCT 2026</p>
+
+                    <h3>How to Build a Reading Habit That Lasts</h3>
+
+                    <p>
+                        Small steps that can help you make reading
+                        a meaningful part of your daily routine.
+                    </p>
+
+                    <a href="#contact" class="read-more">
+                        Read Article <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="blog-card">
+
+                <div class="blog-image">
+
+                    <img src="image/why .avif"
+                         alt="Book collection">
+
+                </div>
+
+                <div class="blog-info">
+
+                    <p class="blog-date">RECOMMENDATIONS &nbsp; | &nbsp; 08 OCT 2026</p>
+
+                    <h3>Five Books to Add to Your Reading List</h3>
+
+                    <p>
+                        Looking for your next great read? Start with
+                        these ideas for your next literary adventure.
+                    </p>
+
+                    <a href="#contact" class="read-more">
+                        Read Article <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="blog-card">
+
+                <div class="blog-image">
+
+                    <img src="image/photo-1519682337058-a94d519337bc.avif"
+                         alt="A stack of books">
+
+                </div>
+
+                <div class="blog-info">
+
+                    <p class="blog-date">BOOK LOVERS &nbsp; | &nbsp; 02 OCT 2026</p>
+
+                    <h3>Why Every Reader Needs a Personal Library</h3>
+
+                    <p>
+                        Discover how a personal collection can reflect
+                        your interests, memories, and imagination.
+                    </p>
+
+                    <a href="#contact" class="read-more">
+                        Read Article <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section class="benefits-section">
+
+        <div class="benefit">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <div>
+                <h3>Convenient Delivery</h3>
+                <p>Books delivered to your door.</p>
+            </div>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <i class="fa-solid fa-book-open"></i>
+
+            <div>
+                <h3>Curated Collection</h3>
+                <p>Stories for every kind of reader.</p>
+            </div>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <i class="fa-solid fa-tags"></i>
+
+            <div>
+                <h3>Special Offers</h3>
+                <p>Discover books at great prices.</p>
+            </div>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <div>
+                <h3>Reader Support</h3>
+                <p>Here to help you find your next read.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter" id="contact">
+
+        <div class="newsletter-text">
+
+            <p class="section-subtitle">LETTERS FROM BOOKNEST</p>
+
+            <h2>A Good Read Starts<br>with a Little Inspiration.</h2>
+
+            <p>
+                Subscribe for reading recommendations, new arrivals,
+                and special offers.
+            </p>
+
+        </div>
+
+
+        <form class="newsletter-form">
+
+            <input type="email" placeholder="Enter your email address">
+
+            <button type="button">
+                Subscribe
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <footer class="footer" id="footer">
+
+        <div class="footer-main">
+
+
+            <div class="footer-about">
+
+                <a href="#home" class="footer-logo">
+                    <i class="fa-solid fa-book-open"></i>
+                    Book<span>Nest</span>
+                </a>
+
+                <p>
+                    A home for curious minds, passionate readers,
+                    and unforgettable stories.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#footer" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#footer" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#footer" aria-label="Pinterest">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="#home">Home</a>
+                <a href="#bestsellers">Best Sellers</a>
+                <a href="#new-arrivals">New Arrivals</a>
+                <a href="#categories">Categories</a>
+                <a href="#offers">Special Offers</a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h3>Customer Care</h3>
+
+                <a href="#contact">Contact Us</a>
+                <a href="#footer">Shipping Information</a>
+                <a href="#footer">Returns & Exchanges</a>
+                <a href="#footer">FAQs</a>
+                <a href="#footer">Privacy Policy</a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h3>Get in Touch</h3>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Your favorite reading destination
+                </p>
+
+                <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    hello@booknest.com
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +20 100 000 0000
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>© 2026 BookNest. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
